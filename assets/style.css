@@ -1,0 +1,353 @@
+
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+i{
+    font-style: normal;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+
+}
+@media (1445px> width>770px){
+    .hero{
+        background-image:url(img/Base\ Background\ p.png);
+        background-repeat: no-repeat;
+        opacity: 0.95;
+    }
+    .heroAlt{
+        background-image: url(img/arkaPlanSaydam.png);
+        background-repeat: no-repeat;
+    
+    }
+    .headerSol{
+        display: flex;
+        align-items: center;
+        gap: 64px;
+    }
+    .header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 160px;
+        gap: 10px;
+        border-bottom: 1px solid #2E3545;
+    }
+    .header ul{
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+        list-style: none;
+        text-decoration: none;
+    }
+    .header ul li{
+        text-decoration: none;
+    }
+    .header ul li a{
+        text-decoration: none;
+        color:  #FFF;
+    }
+    .btns{
+        display: flex;
+        gap: 24px;
+    }
+    .signUp{
+        color: #437EF7;
+        border: none;
+        background-color: transparent;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .logIn{
+        display: flex;
+        padding: 12px 18px;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        border: none;
+        border-radius: 6px;
+        background-color: #437EF7;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .headerSol li a:hover{
+        color: #c4cfe9;
+        /* background-color: #2E3545; */
+    }
+    
+    .rsAlt{
+        display: none;
+        position: absolute;
+        border: 1px solid #2E3545;
+        padding: 10px 20px 20px 40px;
+        background-color: #2e3545b9;
+    }
+    .rsAlt a{
+        display: block;
+    }
+    .acilirMenu:hover .rsAlt{
+        display: block;
+        
+    }
+    .heroContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        align-self: stretch;
+    
+    }
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 640px;
+        flex-wrap: wrap;
+        padding:8px 30px 92px 30px;
+    }
+    .textContainer h1{
+        color: #F9F9F9;
+        text-align: center;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: -0.52px;
+    }
+    .textContainer h3{
+        color: #F9F9F9;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: -0.1px;
+    }
+    .galeryControl{
+        display: flex;
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        background-color: #F9F9F9;
+    }
+    .galeryControl ul{
+        display: flex;
+        padding-inline: 4px;
+        gap: 6px;
+        border-radius: 5px;
+        border: 1px solid var(--neutral-600, #EAEBF0);
+        background: var(--neutral-300, #F7F7F8);
+        list-style: none;
+    }
+    .galeryControl button{
+        border: none;
+        background-color: transparent;
+        color: #5F6D7E;
+        padding: 9px 18px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+        
+    }
+    .galeryControl button:hover{
+        background-color: white;
+        color: #272D37;
+        border-radius: 5px;
+    }
+    .galery{
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        gap: 16px;
+        padding: 64px 0px;
+    }
+    .pb-12{
+        padding-bottom: 12px;
+    }
+    .pagination{
+        display: flex;
+        width: 260px;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 64px;
+        
+    }
+    .pagination p{
+        color: #5F6D7E;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+    .footer{
+        padding: 64px ;
+        justify-content: center;
+    }
+    .footerTop{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 32px;
+        gap: 128px;
+        margin-bottom: 48px;
+    }
+    .footerTop h2{
+        color: #272D37;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 42px;
+        letter-spacing: -0.32px;
+    }
+    .footerBtns{
+        display: flex;
+        gap: 16px;
+    }
+    .footerBtns button {
+        border: none;
+        background-color: transparent;
+    }
+    .Fsign{
+        text-decoration: none;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        color: #F5F8FE;
+        display: flex;
+        border: 1px solid #437EF7;
+        border-radius: 6px;
+        background-color: #437EF7;
+        padding: 12px 18px;
+        justify-content: center;
+        align-items: center;
+    }
+    .Flog{
+        text-decoration: none;
+        color: #272D37;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        display: flex;
+        padding: 12px 18px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #DAE0E6;
+        border-radius: 6px;
+    }
+    .footerTable{
+        display: flex;
+        justify-content: space-between;
+        padding: 48px 32px;
+        border-top: 1px solid #EAEBF0;
+        border-bottom: 1px solid #EAEBF0;
+    
+    }
+    .footerLogo p {
+        color: #5F6D7E;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+    }
+    .footerLogo{
+        max-width: 247px;
+    }
+    .footerLists{
+        display: flex;
+        justify-content: space-evenly;
+        gap: auto;
+    
+    }
+    .footerLists ul h4{
+        color: #272D37;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+    }
+    .footerLists ul li{
+        color: #5F6D7E;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+        list-style: none;
+    }
+    .footerLists ul a{
+        text-decoration: none;
+    }
+    .footerBottomHorizontal{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footerBottomHorizontal h5{
+        color: #5F6D7E;
+        display: flex;
+        align-items: flex-end;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.1px;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    .footerLists ul a li:hover{
+        color:#3c4959 ;
+    }
+    .footerLists ul a h4:hover{
+        color:#a7c3e5 ;
+
+    }
+
+}
+
+@media (769px > width>426px){
+    .hero{
+        max-width: 769px;
+        background-image:url(img/Base\ Background\ p.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.95;
+        
+    }
+    .heroAlt{
+        background-image: url(img/arkaPlanSaydam.png);
+        background-repeat: no-repeat;
+    
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .headerSol{
+        display: flex;
+    }
+    .headerSol ul{
+        display: none;
+    }
+    .headerSol ul:hover{
+        display: block;
+        
+    }
+}
